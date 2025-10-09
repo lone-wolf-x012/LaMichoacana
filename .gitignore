@@ -19,7 +19,6 @@ Web.config
 *.config
 
 ## Ignorar archivos de recursos temporales
-Resources/
 Properties/Resources.tmp
 
 ## Ignorar logs y archivos temporales

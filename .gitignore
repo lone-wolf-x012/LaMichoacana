@@ -14,9 +14,7 @@ obj/
 *.pdb
 
 ## Ignorar archivos de configuración local
-App.config
 Web.config
-*.config
 
 ## Ignorar archivos de recursos temporales
 Properties/Resources.tmp

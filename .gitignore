@@ -1,0 +1,27 @@
+## Ignorar archivos de Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.db
+*.vshost.*
+
+## Ignorar archivos de compilación
+*.exe
+*.dll
+*.pdb
+
+## Ignorar archivos de configuración local
+App.config
+Web.config
+*.config
+
+## Ignorar archivos de recursos temporales
+Resources/
+Properties/Resources.tmp
+
+## Ignorar logs y archivos temporales
+*.log
+*.tmp

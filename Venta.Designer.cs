@@ -69,6 +69,7 @@
             this.Column3,
             this.Column4,
             this.Column5});
+            this.dataGridView1.Enabled = false;
             this.dataGridView1.Location = new System.Drawing.Point(11, 278);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -136,6 +137,7 @@
             // 
             // cbProducto
             // 
+            this.cbProducto.Enabled = false;
             this.cbProducto.FormattingEnabled = true;
             this.cbProducto.Location = new System.Drawing.Point(109, 84);
             this.cbProducto.Name = "cbProducto";
@@ -145,6 +147,7 @@
             // 
             // btnOk
             // 
+            this.btnOk.Enabled = false;
             this.btnOk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnOk.Location = new System.Drawing.Point(676, 91);
             this.btnOk.Name = "btnOk";
@@ -156,6 +159,7 @@
             // 
             // txtCantidad
             // 
+            this.txtCantidad.Enabled = false;
             this.txtCantidad.Location = new System.Drawing.Point(702, 50);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.ShortcutsEnabled = false;
@@ -224,6 +228,7 @@
             // 
             // cbCategoria
             // 
+            this.cbCategoria.Enabled = false;
             this.cbCategoria.FormattingEnabled = true;
             this.cbCategoria.Location = new System.Drawing.Point(109, 45);
             this.cbCategoria.Name = "cbCategoria";
@@ -316,6 +321,7 @@
             // 
             // btnGrabar
             // 
+            this.btnGrabar.Enabled = false;
             this.btnGrabar.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGrabar.Location = new System.Drawing.Point(1090, 129);
             this.btnGrabar.Name = "btnGrabar";

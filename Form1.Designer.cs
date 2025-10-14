@@ -64,7 +64,7 @@
             // productosToolStripMenuItem
             // 
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-            this.productosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.productosToolStripMenuItem.Size = new System.Drawing.Size(163, 26);
             this.productosToolStripMenuItem.Text = "Productos";
             this.productosToolStripMenuItem.Click += new System.EventHandler(this.productosToolStripMenuItem_Click);
             // 
@@ -82,7 +82,7 @@
             // 
             this.registrarOrdenToolStripMenuItem.Name = "registrarOrdenToolStripMenuItem";
             this.registrarOrdenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.registrarOrdenToolStripMenuItem.Text = "Registrar Orden";
+            this.registrarOrdenToolStripMenuItem.Text = "Registrar Venta";
             this.registrarOrdenToolStripMenuItem.Click += new System.EventHandler(this.registrarOrdenToolStripMenuItem_Click);
             // 
             // consultarToolStripMenuItem
@@ -90,6 +90,7 @@
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
             this.consultarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.consultarToolStripMenuItem.Text = "Consultar";
+            this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
@@ -97,6 +98,7 @@
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
             this.reportesToolStripMenuItem.Text = "Reportes";
+            this.reportesToolStripMenuItem.Click += new System.EventHandler(this.reportesToolStripMenuItem_Click);
             // 
             // Form1
             // 

@@ -43,5 +43,15 @@ namespace LaMichoacana
         {
             AbrirFormularioUnico<Venta>();
         }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioUnico<ConsultaVentas>();
+        }
+
+        private void reportesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioUnico<Reportes>();
+        }
     }
 }

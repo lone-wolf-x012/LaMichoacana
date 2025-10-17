@@ -81,14 +81,14 @@
             // registrarOrdenToolStripMenuItem
             // 
             this.registrarOrdenToolStripMenuItem.Name = "registrarOrdenToolStripMenuItem";
-            this.registrarOrdenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.registrarOrdenToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.registrarOrdenToolStripMenuItem.Text = "Registrar Venta";
             this.registrarOrdenToolStripMenuItem.Click += new System.EventHandler(this.registrarOrdenToolStripMenuItem_Click);
             // 
             // consultarToolStripMenuItem
             // 
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(200, 26);
             this.consultarToolStripMenuItem.Text = "Consultar";
             this.consultarToolStripMenuItem.Click += new System.EventHandler(this.consultarToolStripMenuItem_Click);
             // 

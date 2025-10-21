@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "X:\\Programas VS\\LaMichoacana\\",
+  "WorkspaceRootPath": "C:\\Users\\Luis_\\source\\repos\\LaMichoacanas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|x:\\programas vs\\lamichoacana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\luis_\\source\\repos\\lamichoacanas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\luis_\\source\\repos\\lamichoacanas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,31 +17,48 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 866,
+          "DockedHeight": 478,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "X:\\Programas VS\\LaMichoacana\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Luis_\\source\\repos\\LaMichoacanas\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "X:\\Programas VS\\LaMichoacana\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luis_\\source\\repos\\LaMichoacanas\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T14:35:25.402Z",
               "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Luis_\\source\\repos\\LaMichoacanas\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Luis_\\source\\repos\\LaMichoacanas\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T06:45:27.808Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 440,
+          "DockedHeight": 208,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",

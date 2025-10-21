@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -77,6 +79,24 @@ namespace LaMichoacana
             }
         }
 
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string rutaProyecto = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\Resources\Ayuda\index.html");
+            string rutaAbsoluta = Path.GetFullPath(rutaProyecto);
+
+            if (File.Exists(rutaAbsoluta))
+            {
+                System.Diagnostics.Process.Start(new ProcessStartInfo()
+                {
+                    FileName = rutaAbsoluta,
+                    UseShellExecute = true
+                });
+            }
+            else
+            {
+                MessageBox.Show("No se encontró el archivo de ayuda en: " + rutaAbsoluta);
+            }
+        }
     }
 }
 

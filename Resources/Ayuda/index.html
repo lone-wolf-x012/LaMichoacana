@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Manual de Uso - Sistema La Michoacana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manual de Uso - Sistema La Michoacana</h1>
+        <p>Guía técnica y funcional para el uso del sistema de gestión</p>
+    </header>
+
+    <nav>
+        <button onclick="mostrarInicio()" class="active">Inicio</button>
+        <button onclick="cargar('productos.html')">Productos</button>
+        <button onclick="cargar('ventas.html')">Ventas</button>
+        <button onclick="cargar('reportes.html')">Reportes</button>
+    </nav>
+
+    <main id="contenido">
+        <h2>Bienvenido</h2>
+        <p>
+            Este manual está diseñado para guiar al usuario en el uso del sistema de gestión 
+            <b>La Michoacana</b>, una aplicación desarrollada para optimizar la administración 
+            de productos, ventas y reportes dentro de una heladería o paletería local.
+        </p>
+
+        <div class="card">
+            <h3>Desarrolladores</h3>
+            <p>
+                <b>Omar Frias Solorzano</b>
+                <br>
+                <b>Luis Enrique Larios Arechiga</b>  
+                <br>
+                <b>Juan Pablo Fuentes Moreno</b>
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Objetivo del sistema</h3>
+            <p>
+                El objetivo principal de este sistema es ofrecer una herramienta práctica y sencilla
+                para la gestión interna de una sucursal de La Michoacana, permitiendo controlar el 
+                inventario de productos, registrar ventas y consultar reportes de desempeño.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Objetivos específicos</h3>
+            <ul>
+                <li>Facilitar el registro y actualización de productos.</li>
+                <li>Controlar de manera eficiente las ventas diarias.</li>
+                <li>Generar reportes automáticos para un mejor análisis de desempeño.</li>
+                <li>Mejorar la experiencia del usuario con una interfaz moderna y atractiva.</li>
+                <li>Reducir errores humanos mediante validaciones y procesos automatizados.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Recomendaciones de uso</h3>
+            <p>
+                Utiliza los botones de navegación en la parte superior para acceder a los distintos
+                módulos del sistema. Cada sección te mostrará información detallada sobre su funcionamiento.
+            </p>
+        </div>
+
+        <p style="text-align:center; margin-top: 25px;">
+            <i>Versión 1.0 — Actualizado en Octubre 2025</i>
+        </p>
+    </main>
+
+    <footer>
+        Sistema La Michoacana © 2025 — Todos los derechos reservados.
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        window.__initialContent = document.getElementById('contenido').innerHTML || '';
+    });
+
+    function mostrarInicio() {
+        document.getElementById('contenido').innerHTML = window.__initialContent;
+        setActiveButton('inicio');
+        window.scrollTo(0, 0);
+    }
+
+    function cargar(ruta) {
+        fetch(ruta)
+            .then(response => {
+                if (!response.ok) throw new Error("No se pudo cargar el archivo: " + ruta);
+                return response.text();
+            })
+            .then(html => {
+                document.getElementById('contenido').innerHTML = html;
+                setActiveButton(ruta);
+                window.scrollTo(0, 0);
+            })
+            .catch(err => {
+                document.getElementById('contenido').innerHTML =
+                    `<p style='color:red;'>${err.message}</p>`;
+            });
+    }
+
+    function setActiveButton(key) {
+        document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+        if (key === 'inicio') {
+            const btn = document.querySelector('nav button[onclick="mostrarInicio()"]');
+            if (btn) btn.classList.add('active');
+        } else {
+            const sel = `nav button[onclick="cargar('${key}')"]`;
+            const btn = document.querySelector(sel);
+            if (btn) btn.classList.add('active');
+        }
+    }
+    </script>
+</body>
+</html>

@@ -6,7 +6,9 @@ namespace LaMichoacana
 {
     public partial class Productos : Form
     {
-        SqlConnection conexion = new SqlConnection("Server=RAIKIRI\\SQLEXPRESS;Database=LaMichoacana;Trusted_Connection=True;");
+        //SqlConnection conexion = new SqlConnection("Server=RAIKIRI\\SQLEXPRESS;Database=LaMichoacana;Trusted_Connection=True;");
+        SqlConnection conexion = new SqlConnection("Server=(local)\\SQLEXPRESS;Database=LaMichoacana;Trusted_Connection=True;");
+
         SqlCommand comando = new SqlCommand();
         SqlDataReader lector;
         public Productos()

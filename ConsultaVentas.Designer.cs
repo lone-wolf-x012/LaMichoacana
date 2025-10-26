@@ -74,6 +74,7 @@
             this.txtIdx.Size = new System.Drawing.Size(100, 22);
             this.txtIdx.TabIndex = 42;
             this.txtIdx.Text = "1";
+            this.txtIdx.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIdx_KeyPress);
             // 
             // label3
             // 

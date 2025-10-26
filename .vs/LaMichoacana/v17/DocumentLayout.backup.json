@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\juan p\\desktop\\lamichoacana\\consultaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\consultaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:consultaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\juan p\\desktop\\lamichoacana\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\consultaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:consultaventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\juan p\\desktop\\lamichoacana\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\juan p\\desktop\\lamichoacana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\juan p\\desktop\\lamichoacana\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\juan p\\desktop\\lamichoacana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|c:\\users\\juan p\\desktop\\lamichoacana\\reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|C:\\Users\\Juan P\\Desktop\\LaMichoacana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F05BFE72-9DA2-44DC-97E1-2DE5C21E1FFB}|LaMichoacana.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,33 +50,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 585,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Venta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Venta.cs",
-              "RelativeDocumentMoniker": "Venta.cs",
-              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Venta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Venta.cs [Dise\u00F1o]",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T12:25:20.822Z",
+              "WhenOpened": "2025-10-24T23:03:41.038Z",
+              "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ConsultaVentas.cs",
+              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\ConsultaVentas.cs",
+              "RelativeDocumentMoniker": "ConsultaVentas.cs",
+              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\ConsultaVentas.cs",
+              "RelativeToolTip": "ConsultaVentas.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAAIAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T15:32:42.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ConsultaVentas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\ConsultaVentas.cs",
               "RelativeDocumentMoniker": "ConsultaVentas.cs",
@@ -72,20 +92,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Venta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Venta.cs",
+              "RelativeDocumentMoniker": "Venta.cs",
+              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Venta.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Venta.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:25:20.822Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Venta.cs",
               "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Venta.cs",
               "RelativeDocumentMoniker": "Venta.cs",
               "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Venta.cs",
               "RelativeToolTip": "Venta.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAkwMYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T12:27:26.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Productos.cs",
+              "RelativeDocumentMoniker": "Productos.cs",
+              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Productos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Productos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T22:35:12.987Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Productos.cs",
+              "RelativeDocumentMoniker": "Productos.cs",
+              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Productos.cs",
+              "RelativeToolTip": "Productos.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAALYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T22:35:14.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Reportes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Reportes.cs",
               "RelativeDocumentMoniker": "Reportes.cs",
@@ -97,7 +154,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Reportes.cs",
+              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Reportes.cs",
+              "RelativeDocumentMoniker": "Reportes.cs",
+              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Reportes.cs",
+              "RelativeToolTip": "Reportes.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T23:15:44.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -105,20 +175,7 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T07:13:55.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Juan P\\Desktop\\LaMichoacana\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T07:13:50.299Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-21T07:13:55.16Z"
             }
           ]
         }

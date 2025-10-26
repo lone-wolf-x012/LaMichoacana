@@ -65,7 +65,39 @@ namespace LaMichoacana
                 conexion.Close();
             }
         }
+        private bool ValidarProductosEnPedido()
+        {
+            // Validar que haya al menos un producto en el DataGridView
+            if (dataGridView1.Rows.Count == 0 || dataGridView1.Rows[0].Cells[0].Value == null)
+            {
+                MessageBox.Show("Debe agregar al menos un producto al pedido antes de guardar.", "Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cbCategoria.Focus();
+                return false;
+            }
 
+            return true;
+        }
+        private bool ValidarCantidad()
+        {
+            if (string.IsNullOrEmpty(txtCantidad.Text.Trim()))
+            {
+                MessageBox.Show("La cantidad no puede estar vacía.", "Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCantidad.Focus();
+                return false;
+            }
+
+            if (!int.TryParse(txtCantidad.Text, out int cantidad) || cantidad <= 0)
+            {
+                MessageBox.Show("La cantidad debe ser un número entero mayor a 0.", "Error",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCantidad.Focus();
+                return false;
+            }
+
+            return true;
+        }
         private void cbCategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -122,6 +154,9 @@ namespace LaMichoacana
 
         private void btnOk_Click(object sender, EventArgs e)
         {
+            // Validar la cantidad antes de agregar
+            if (!ValidarCantidad())
+                return;
             try
             {
                 int importe = 0;
@@ -160,6 +195,10 @@ namespace LaMichoacana
                         );
 
                 }
+                // Limpiar selecciones
+                cbCategoria.SelectedIndex = -1;
+                cbProducto.SelectedIndex = -1;
+
                 cbCategoria.Text = "";
                 cbProducto.Text = "";
                 txtPrecio.Text = "";
@@ -216,6 +255,10 @@ namespace LaMichoacana
 
         private void btnGrabar_Click(object sender, EventArgs e)
         {
+            // Validar que haya al menos un producto en el pedido
+            if (!ValidarProductosEnPedido())
+                return;
+
             try
             {
                 conexion.Open();
@@ -266,6 +309,15 @@ namespace LaMichoacana
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void txtCantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo números, backspace y delete
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

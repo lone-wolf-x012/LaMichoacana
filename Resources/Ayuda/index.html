@@ -12,107 +12,229 @@
     </header>
 
     <nav>
-        <button onclick="mostrarInicio()" class="active">Inicio</button>
-        <button onclick="cargar('productos.html')">Productos</button>
-        <button onclick="cargar('ventas.html')">Ventas</button>
-        <button onclick="cargar('reportes.html')">Reportes</button>
+        <button onclick="mostrar('inicio')" class="active">Inicio</button>
+        <button onclick="mostrar('productos')">Productos</button>
+        <button onclick="mostrar('ventas')">Ventas</button>
+        <button onclick="mostrar('reportes')">Reportes</button>
     </nav>
 
     <main id="contenido">
-        <h2>Bienvenido</h2>
-        <p>
-            Este manual está diseñado para guiar al usuario en el uso del sistema de gestión 
-            <b>La Michoacana</b>, una aplicación desarrollada para optimizar la administración 
-            de productos, ventas y reportes dentro de una heladería o paletería local.
-        </p>
 
-        <div class="card">
-            <h3>Desarrolladores</h3>
+        <!--inicio-->
+        <section id="inicio" class="active">
+            <h2>Bienvenido</h2>
             <p>
-                <b>Omar Frias Solorzano</b>
-                <br>
-                <b>Luis Enrique Larios Arechiga</b>  
-                <br>
-                <b>Juan Pablo Fuentes Moreno</b>
+                Este manual está diseñado para guiar al usuario en el uso del sistema de gestión 
+                <b>La Michoacana</b>, una aplicación desarrollada para optimizar la administración 
+                de productos, ventas y reportes dentro de una heladería o paletería local.
             </p>
-        </div>
 
-        <div class="card">
-            <h3>Objetivo del sistema</h3>
+            <div class="card">
+                <h3>Desarrolladores</h3>
+                <p>
+                    <b>Omar Frias Solorzano</b>
+                    <br>
+                    <b>Luis Enrique Larios Arechiga</b>  
+                    <br>
+                    <b>Juan Pablo Fuentes Moreno</b>
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Objetivo del sistema</h3>
+                <p>
+                    El objetivo principal de este sistema es ofrecer una herramienta práctica y sencilla
+                    para la gestión interna de una sucursal de La Michoacana, permitiendo controlar el 
+                    inventario de productos, registrar ventas y consultar reportes de desempeño.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Objetivos específicos</h3>
+                <ul>
+                    <li>Facilitar el registro y actualización de productos.</li>
+                    <li>Controlar de manera eficiente las ventas diarias.</li>
+                    <li>Generar reportes automáticos para un mejor análisis de desempeño.</li>
+                    <li>Mejorar la experiencia del usuario con una interfaz moderna y atractiva.</li>
+                    <li>Reducir errores humanos mediante validaciones y procesos automatizados.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Recomendaciones de uso</h3>
+                <p>
+                    Utiliza los botones de navegación en la parte superior para acceder a los distintos
+                    módulos del sistema. Cada sección te mostrará información detallada sobre su funcionamiento.
+                </p>
+            </div>
+
+            <p style="text-align:center; margin-top: 25px;">
+                <i>Versión 1.0 — Actualizado en Octubre 2025</i>
+            </p>
+        </section>
+
+        <!--Productos-->
+        <section id="productos">
+            <h2>Módulo de Productos</h2>
+
             <p>
-                El objetivo principal de este sistema es ofrecer una herramienta práctica y sencilla
-                para la gestión interna de una sucursal de La Michoacana, permitiendo controlar el 
-                inventario de productos, registrar ventas y consultar reportes de desempeño.
+            El módulo <b>Productos</b> permite gestionar los artículos disponibles en la heladería,
+            como paletas, nieves, aguas, toppings o cualquier otro producto ofrecido al cliente.
+            Desde esta sección podrás <b>registrar, editar y consultar productos</b> de manera sencilla.
             </p>
-        </div>
 
-        <div class="card">
-            <h3>Objetivos específicos</h3>
+            <div class="card">
+                <h3>Objetivo del módulo</h3>
+                <p>
+                    Mantener un control preciso del inventario de productos, garantizando que la información 
+                    del catálogo esté siempre actualizada y accesible para el personal autorizado.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Funcionalidades principales</h3>
+                <ul>
+                    <li><b>Agregar producto:</b> Permite registrar un nuevo producto indicando su nombre, precio y categoría.</li>
+                    <li><b>Modificar producto:</b> Edita los datos de un producto ya existente.</li>
+                    <li><b>Buscar producto:</b> Localiza rápidamente un artículo mediante filtros de búsqueda.</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Recomendaciones</h3>
+                <ul>
+                    <li>Evita dejar campos vacíos al registrar un producto.</li>
+                    <li>Usa nombres claros y específicos (por ejemplo: “Paleta de mango con chile”).</li>
+                    <li>Verifica los precios antes de guardar los cambios.</li>
+                    <li>Si eliminas un producto, asegúrate de que no esté en uso en alguna venta activa.</li>
+                </ul>
+            </div>
+
+            <p style="text-align:center; margin-top:25px;">
+                <i>Última actualización: Octubre 2025</i>
+            </p>
+
+        </section>
+
+        <!--ventas-->
+        <section id="ventas">
+            <h2>Módulo de Ventas</h2>
+
+            <p>
+            El módulo <b>Ventas</b> permite registrar las transacciones realizadas con los clientes,
+            así como calcular subtotales, impuestos y totales finales. Este apartado garantiza
+            un control ordenado y transparente de las operaciones diarias de la heladería.
+            </p>
+
+            <div class="card">
+            <h3>Objetivo del módulo</h3>
+            <p>
+                Facilitar el proceso de venta, permitiendo al personal registrar productos vendidos, 
+                calcular el monto total y generar comprobantes, manteniendo una trazabilidad 
+                completa de cada operación.
+            </p>
+            </div>
+
+            <div class="card">
+            <h3>Funcionalidades principales</h3>
             <ul>
-                <li>Facilitar el registro y actualización de productos.</li>
-                <li>Controlar de manera eficiente las ventas diarias.</li>
-                <li>Generar reportes automáticos para un mejor análisis de desempeño.</li>
-                <li>Mejorar la experiencia del usuario con una interfaz moderna y atractiva.</li>
-                <li>Reducir errores humanos mediante validaciones y procesos automatizados.</li>
+                <li><b>Registrar venta:</b> Agregar productos al carrito, indicar cantidades y aplicar descuentos.</li>
+                <li><b>Calcular totales:</b> El sistema calcula automáticamente el total a pagar.</li>
+                <li><b>Historial de ventas:</b> Consultar transacciones pasadas filtrando por fecha o cliente.</li>
             </ul>
-        </div>
+            </div>
 
-        <div class="card">
-            <h3>Recomendaciones de uso</h3>
-            <p>
-                Utiliza los botones de navegación en la parte superior para acceder a los distintos
-                módulos del sistema. Cada sección te mostrará información detallada sobre su funcionamiento.
+            <div class="card">
+            <h3>Ejemplo de flujo de venta</h3>
+            <ol>
+                <li>El usuario selecciona los productos que el cliente desea comprar.</li>
+                <li>Se muestran los precios y cantidades en una lista.</li>
+                <li>El sistema calcula automáticamente el total.</li>
+                <li>El usuario elige el método de pago y confirma la venta.</li>
+                <li>El comprobante se genera y la venta queda registrada en la base de datos.</li>
+            </ol>
+            </div>
+
+            <div class="card">
+            <h3>💡 Recomendaciones</h3>
+            <ul>
+                <li>Verifica que los precios de los productos estén actualizados antes de registrar la venta.</li>
+                <li>Confirma el método de pago antes de finalizar la operación.</li>
+                <li>Evita cerrar la ventana del sistema mientras se procesa una venta.</li>
+                <li>Consulta el historial de ventas regularmente para llevar un control diario.</li>
+            </ul>
+            </div>
+
+            <p style="text-align:center; margin-top:25px;">
+            <i>Última actualización: Octubre 2025</i>
             </p>
-        </div>
 
-        <p style="text-align:center; margin-top: 25px;">
-            <i>Versión 1.0 — Actualizado en Octubre 2025</i>
-        </p>
+        </section>
+
+        <!--reportes-->
+        <section id="reportes">
+            <h2>Módulo de Reportes</h2>
+
+            <p>
+            El módulo <b>Reportes</b> es una herramienta clave para el análisis y la toma de decisiones dentro del sistema 
+            de administración de <b>La Michoacana</b>. Permite visualizar y exportar información detallada sobre las ventas, 
+            productos y desempeño general del negocio.
+            </p>
+
+            <div class="card">
+            <h3>Objetivo del módulo</h3>
+            <p>
+                Brindar una visión clara y estructurada de los resultados obtenidos en distintos periodos de tiempo, 
+                ayudando a identificar patrones de consumo, productos más vendidos y áreas de mejora.
+            </p>
+            </div>
+
+            <div class="card">
+            <h3>Funcionalidades principales</h3>
+            <ul>
+                <li><b>Reporte diario:</b> Muestra las ventas realizadas durante el día actual, con totales y desglose por producto.</li>
+                <li><b>Reporte semanal:</b> Resume las ventas de los últimos siete días y compara el rendimiento con la semana anterior.</li>
+                <li><b>Reporte mensual:</b> Proporciona una visión general de ingresos, productos más vendidos y frecuencia de clientes.</li>
+                <li><b>Exportación:</b> Permite exportar los reportes en formatos PDF o Excel para su análisis externo.</li>
+                <li><b>Gráficas dinámicas:</b> Representa visualmente los datos mediante barras o gráficos circulares.</li>
+            </ul>
+            </div>
+
+            <div class="card">
+            <h3>Cómo interpretar los datos</h3>
+            <ol>
+                <li>Observa las variaciones en ventas diarias y semanales para detectar tendencias.</li>
+                <li>Identifica los productos con mayor margen de ganancia.</li>
+                <li>Evalúa las horas pico de venta para mejorar la atención al cliente.</li>
+                <li>Utiliza los reportes históricos para planificar promociones o cambios de inventario.</li>
+            </ol>
+            </div>
+
+            <div class="card">
+            <h3>Recomendaciones</h3>
+            <ul>
+                <li>Genera un reporte diario al cierre de cada jornada.</li>
+                <li>Guarda copias de los reportes exportados en un respaldo externo.</li>
+                <li>Analiza semanalmente los productos menos vendidos para ajustar la producción.</li>
+                <li>Utiliza los gráficos para detectar oportunidades de crecimiento.</li>
+            </ul>
+            </div>
+
+            <p style="text-align:center; margin-top:25px;">
+            <i>Última actualización: Octubre 2025</i>
+            </p>
+
+        </section>
     </main>
 
     <footer>
         Sistema La Michoacana © 2025 — Todos los derechos reservados.
     </footer>
-
     <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        window.__initialContent = document.getElementById('contenido').innerHTML || '';
-    });
-
-    function mostrarInicio() {
-        document.getElementById('contenido').innerHTML = window.__initialContent;
-        setActiveButton('inicio');
-        window.scrollTo(0, 0);
-    }
-
-    function cargar(ruta) {
-        fetch(ruta)
-            .then(response => {
-                if (!response.ok) throw new Error("No se pudo cargar el archivo: " + ruta);
-                return response.text();
-            })
-            .then(html => {
-                document.getElementById('contenido').innerHTML = html;
-                setActiveButton(ruta);
-                window.scrollTo(0, 0);
-            })
-            .catch(err => {
-                document.getElementById('contenido').innerHTML =
-                    `<p style='color:red;'>${err.message}</p>`;
-            });
-    }
-
-    function setActiveButton(key) {
-        document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
-        if (key === 'inicio') {
-            const btn = document.querySelector('nav button[onclick="mostrarInicio()"]');
-            if (btn) btn.classList.add('active');
-        } else {
-            const sel = `nav button[onclick="cargar('${key}')"]`;
-            const btn = document.querySelector(sel);
-            if (btn) btn.classList.add('active');
+        function mostrar(id) {
+            document.querySelectorAll('section').forEach(section => section.classList.remove('active'));
+            document.getElementById(id).classList.add('active')
         }
-    }
     </script>
 </body>
 </html>

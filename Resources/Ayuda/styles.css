@@ -1,4 +1,4 @@
-/* 🎀 Estilos generales */
+/*Estilos generales */
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     background: linear-gradient(to bottom right, #fff5fa, #ffe3ed);
@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
 }
 
-/* 🩷 Encabezado principal */
+/*Encabezado principal */
 header {
     background-color: #FD549F;
     color: white;
@@ -23,7 +23,7 @@ header h1 {
     letter-spacing: 1px;
 }
 
-/* 📜 Contenido */
+/*Contenido */
 main {
     max-width: 900px;
     background: #fff;
@@ -33,7 +33,7 @@ main {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* 🔖 Títulos */
+/*Títulos */
 h2 {
     color: #FD549F;
     border-bottom: 2px solid #FD549F;
@@ -47,7 +47,7 @@ h3 {
     margin-bottom: 8px;
 }
 
-/* 🗂️ Tarjetas */
+/*Tarjetas */
 .card {
     background-color: #fff9fb;
     border-left: 5px solid #FD549F;
@@ -57,7 +57,7 @@ h3 {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* 📋 Listas */
+/*Listas */
 ul, ol {
     padding-left: 25px;
 }
@@ -66,7 +66,7 @@ li {
     margin-bottom: 8px;
 }
 
-/* 🖱️ Botones de navegación */
+/*Botones de navegación */
 nav {
     text-align: center;
     margin-top: 20px;
@@ -100,7 +100,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* 📱 Responsivo */
+/*Responsivo */
 @media (max-width: 768px) {
     main {
         margin: 20px;
@@ -110,4 +110,18 @@ a:hover {
     header h1 {
         font-size: 1.6em;
     }
+}
+/* seccion mostrado en pantalla */
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+    animation: animacion 1s ease;
+}
+
+@keyframes animacion {
+    from{opacity: 0; transform: translateY(10px);}
+    to{opacity: 1;transform: translateY(0);}
 }

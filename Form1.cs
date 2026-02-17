@@ -97,6 +97,23 @@ namespace LaMichoacana
                 MessageBox.Show("No se encontró el archivo de ayuda en: " + rutaAbsoluta);
             }
         }
+
+        private void cerrarSecionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show(
+                "¿Seguro que deseas cerrar sesión?",
+                "Cerrar sesión",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (resultado == DialogResult.Yes)
+            {
+                Loging login = new Loging();
+                login.Show();
+                this.Close();
+            }
+        }
     }
 }
 

@@ -106,6 +106,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>LaMichoacanaDataSet3.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Loging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loging.Designer.cs">
+      <DependentUpon>Loging.cs</DependentUpon>
+    </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loging.resx">
+      <DependentUpon>Loging.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
